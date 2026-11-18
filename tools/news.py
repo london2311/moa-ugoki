@@ -89,6 +89,12 @@ def parse_date(s: str) -> datetime | None:
 
 def parse_feed(data: bytes) -> list[dict]:
     """RSS 2.0 / RSS 1.0(RDF) / Atom をまとめて扱う。"""
+    m = re.match(rb'<\?xml[^>]*encoding=["\']([A-Za-z0-9_\-]+)["\']', data.lstrip())
+    if m and m.group(1).lower() not in (b"utf-8", b"utf8"):  # Shift_JIS などは utf-8 に直してから読む
+        enc = m.group(1).decode()
+        text = data.decode(enc, errors="replace")
+        text = re.sub(r'encoding=["\'][^"\']+["\']', 'encoding="utf-8"', text, count=1)
+        data = text.encode("utf-8")
     root = ET.fromstring(data)
     out = []
     for el in root.iter():
