@@ -1,0 +1,362 @@
+{
+  "_説明": "行政・社会・議会・世界の動きの収集設定（公開リポジトリ）。公開されているニュースだけを扱う。会員や団体の内部の情報は書かない。",
+  "feeds": [
+    {
+      "name": "厚生労働省 新着",
+      "url": "https://www.mhlw.go.jp/stf/news.rdf",
+      "level": "国"
+    },
+    {
+      "name": "首相官邸 新着",
+      "url": "https://www.kantei.go.jp/index-jnews.rdf",
+      "level": "国"
+    },
+    {
+      "name": "内閣府 新着",
+      "url": "https://www.cao.go.jp/rss/news.rdf",
+      "level": "国"
+    },
+    {
+      "name": "農林水産省 報道発表",
+      "url": "https://www.maff.go.jp/j/press/rss.xml",
+      "level": "国"
+    },
+    {
+      "name": "文部科学省 新着",
+      "url": "https://www.mext.go.jp/b_menu/news/index.rdf",
+      "level": "国"
+    },
+    {
+      "name": "総務省 新着",
+      "url": "https://www.soumu.go.jp/news.rdf",
+      "level": "国"
+    },
+    {
+      "name": "e-Gov パブリックコメント",
+      "url": "https://public-comment.e-gov.go.jp/rss/pcm_list.xml",
+      "level": "国"
+    }
+  ],
+  "searches": [
+    {
+      "q": "統合医療",
+      "level": "社会"
+    },
+    {
+      "q": "社会的処方",
+      "level": "社会"
+    },
+    {
+      "q": "地域共生社会",
+      "level": "国"
+    },
+    {
+      "q": "重層的支援体制整備事業",
+      "level": "国"
+    },
+    {
+      "q": "認知症カフェ",
+      "level": "社会"
+    },
+    {
+      "q": "介護予防 通いの場",
+      "level": "社会"
+    },
+    {
+      "q": "フレイル予防",
+      "level": "社会"
+    },
+    {
+      "q": "孤独・孤立対策",
+      "level": "国"
+    },
+    {
+      "q": "健康寿命 延伸",
+      "level": "社会"
+    },
+    {
+      "q": "予防医療 厚生労働省",
+      "level": "国"
+    },
+    {
+      "q": "医療費 増加 社会保障",
+      "level": "国"
+    },
+    {
+      "q": "食育推進",
+      "level": "国"
+    },
+    {
+      "q": "有機農業 みどりの食料システム",
+      "level": "国"
+    },
+    {
+      "q": "自然農法",
+      "level": "社会"
+    },
+    {
+      "q": "地域食堂 こども食堂",
+      "level": "社会"
+    },
+    {
+      "q": "文化芸術 子ども 地域",
+      "level": "社会"
+    },
+    {
+      "q": "部活動 地域展開",
+      "level": "国"
+    },
+    {
+      "q": "社会福祉協議会 ボランティア",
+      "level": "社会"
+    },
+    {
+      "q": "身寄りのない高齢者 支援",
+      "level": "国"
+    },
+    {
+      "q": "広島市 高齢者いきいき活動ポイント",
+      "level": "地域"
+    },
+    {
+      "q": "広島市 健康づくり",
+      "level": "地域"
+    },
+    {
+      "q": "広島県 地域福祉",
+      "level": "地域"
+    },
+    {
+      "q": "広島市 地域包括支援センター",
+      "level": "地域"
+    },
+    {
+      "q": "広島市 認知症",
+      "level": "地域"
+    },
+    {
+      "q": "広島 まちづくり 協働",
+      "level": "地域"
+    },
+    {
+      "q": "安芸郡 海田町 府中町 熊野町",
+      "level": "地域"
+    },
+    {
+      "q": "廿日市市 三次市 呉市 福祉",
+      "level": "地域"
+    },
+    {
+      "q": "MOA美術館 児童作品展",
+      "level": "MOA"
+    },
+    {
+      "q": "MOA 浄化療法 OR 岡田茂吉",
+      "level": "MOA"
+    }
+  ],
+  "categories": {
+    "浄化療法・健康・医療": [
+      "統合医療",
+      "社会的処方",
+      "予防",
+      "健康寿命",
+      "健康づくり",
+      "フレイル",
+      "介護予防",
+      "認知症",
+      "医療費",
+      "地域包括",
+      "在宅医療",
+      "看取り",
+      "保健",
+      "生活習慣病",
+      "メンタル",
+      "リハビリ",
+      "ウェルビーイング",
+      "健康日本21",
+      "浄化療法",
+      "看護"
+    ],
+    "食・自然農法": [
+      "食育",
+      "有機",
+      "自然農法",
+      "農業",
+      "食料",
+      "給食",
+      "地域食堂",
+      "こども食堂",
+      "食生活",
+      "栄養",
+      "地産地消",
+      "農林"
+    ],
+    "美術文化・教育": [
+      "文化芸術",
+      "美術",
+      "芸術",
+      "作品展",
+      "いけばな",
+      "華道",
+      "茶道",
+      "学校",
+      "教育",
+      "部活動",
+      "子ども",
+      "こども",
+      "青少年",
+      "博物館",
+      "美術館"
+    ],
+    "まちづくり・地域共生": [
+      "地域共生",
+      "重層的支援",
+      "孤独",
+      "孤立",
+      "社会福祉協議会",
+      "社協",
+      "ボランティア",
+      "町内会",
+      "自治会",
+      "まちづくり",
+      "協働",
+      "居場所",
+      "通いの場",
+      "身寄り",
+      "地域福祉",
+      "高齢者",
+      "いきいき",
+      "共生社会",
+      "NPO",
+      "市民活動"
+    ],
+    "広島": [
+      "広島",
+      "安芸",
+      "海田",
+      "府中町",
+      "熊野",
+      "坂町",
+      "廿日市",
+      "三次",
+      "呉",
+      "東広島",
+      "佐伯区",
+      "安佐",
+      "中区",
+      "西区",
+      "南区",
+      "東区"
+    ],
+    "MOA・明主様": [
+      "MOA",
+      "岡田茂吉",
+      "世界救世教",
+      "浄霊",
+      "箱根",
+      "熱海"
+    ]
+  },
+  "exclude": [
+    "人事異動",
+    "入札",
+    "職員採用",
+    "訃報"
+  ],
+  "keep_days": 400,
+  "_議会の説明": "広島県に村はない（14市・9町）。各議会の動きを議会名で、注目する議員は giin に氏名を足すと個別に追う。",
+  "assemblies": [
+    "広島県議会",
+    "広島市議会",
+    "呉市議会",
+    "竹原市議会",
+    "三原市議会",
+    "尾道市議会",
+    "福山市議会",
+    "府中市議会",
+    "三次市議会",
+    "庄原市議会",
+    "大竹市議会",
+    "東広島市議会",
+    "廿日市市議会",
+    "安芸高田市議会",
+    "江田島市議会",
+    "府中町議会",
+    "海田町議会",
+    "熊野町議会",
+    "坂町議会",
+    "安芸太田町議会",
+    "北広島町議会",
+    "大崎上島町議会",
+    "世羅町議会",
+    "神石高原町議会",
+    "広島 衆議院議員",
+    "広島 参議院議員"
+  ],
+  "giin": [],
+  "_giinの書き方": "公開リポジトリなので、議員の氏名と役職だけを書く（ご縁やメモは書かない）。例: {\"name\": \"山田太郎\", \"role\": \"広島市議会議員（西区）\"}",
+  "world": [
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "region": "欧州・世界"
+    },
+    {
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "region": "欧州・世界"
+    },
+    {
+      "name": "DW (Deutsche Welle)",
+      "url": "https://rss.dw.com/rdf/rss-en-all",
+      "region": "欧州・世界"
+    },
+    {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/rss",
+      "region": "欧州・世界"
+    },
+    {
+      "name": "New York Times World",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "region": "アメリカ"
+    },
+    {
+      "name": "NPR World",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "region": "アメリカ"
+    },
+    {
+      "name": "South China Morning Post China",
+      "url": "https://www.scmp.com/rss/4/feed",
+      "region": "中国"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "region": "中東"
+    },
+    {
+      "name": "The Straits Times Asia",
+      "url": "https://www.straitstimes.com/news/asia/rss.xml",
+      "region": "アジア"
+    },
+    {
+      "name": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+      "region": "アジア"
+    },
+    {
+      "name": "Yonhap (韓国)",
+      "url": "https://en.yna.co.kr/RSS/news.xml",
+      "region": "アジア"
+    },
+    {
+      "name": "NHK 国際",
+      "url": "https://www3.nhk.or.jp/rss/news/cat6.xml",
+      "region": "日本から見た世界"
+    }
+  ],
+  "world_per_feed": 8
+}
